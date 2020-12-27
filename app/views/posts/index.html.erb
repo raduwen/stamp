@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<%= link_to 'New Post', new_post_path %>
+<hr>
+
+<div class="posts">
+  <% @posts.each do |post| %>
+    <% if post.thumb %>
+      <div class="post" data-id="<%= post.id %>">
+        <%= image_tag post.thumb %>
+      </div>
+    <% end %>
+  <% end %>
+</div>
