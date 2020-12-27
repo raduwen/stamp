@@ -1,24 +1,22 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Requirements
+- ruby 2.7 or higher
+- yarn
+- sqlite3
 
-Things you may want to cover:
+## Installation
 
-* Ruby version
+```
+bin/setup
+```
 
-* System dependencies
+## Run
 
-* Configuration
+```
+bin/rails s
+bin/webpack-dev-server
+```
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## TODO
+- [ ] host configuration
